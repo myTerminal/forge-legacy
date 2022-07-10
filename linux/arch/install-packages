@@ -64,6 +64,7 @@ tw_execute sudo pacman -S \
            thunar \
            gvfs \
            firefox-developer-edition \
+           brave \
            keepassxc \
            thunderbird \
            transmission-gtk \

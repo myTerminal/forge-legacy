@@ -35,6 +35,7 @@ tw_execute brew install --cask \
            alacritty \
            emacs \
            google-chrome \
+           brave-browser \
            homebrew/cask-versions/firefox-developer-edition \
            keepassxc \
            authy \
