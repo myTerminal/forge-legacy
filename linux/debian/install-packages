@@ -29,6 +29,7 @@ tw_execute sudo apt install \
            network-manager \
            dnsutils \
            weechat \
+           make \
            docker \
            npm \
            sbcl \

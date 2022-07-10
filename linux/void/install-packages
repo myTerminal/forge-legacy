@@ -31,6 +31,7 @@ tw_execute sudo xbps-install -S \
            NetworkManager \
            bind-utils \
            weechat \
+           make \
            docker \
            nodejs \
            sbcl \

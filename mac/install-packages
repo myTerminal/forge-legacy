@@ -23,6 +23,7 @@ tw_execute brew install \
            rustup-init \
            rlwrap \
            weechat \
+           make \
            docker \
            docker-machine \
            rsync \

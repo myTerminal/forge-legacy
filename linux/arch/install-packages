@@ -31,6 +31,7 @@ tw_execute sudo pacman -S \
            networkmanager \
            bind \
            weechat \
+           make \
            docker \
            npm \
            sbcl \
