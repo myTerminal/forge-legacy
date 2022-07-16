@@ -9,7 +9,7 @@ tw_execute sudo xbps-install -S \
            tmux \
            fish-shell \
            fd \
-           exa \
+           lsd \
            bat \
            ncdu \
            ripgrep \

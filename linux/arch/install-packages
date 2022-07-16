@@ -9,7 +9,7 @@ tw_execute sudo pacman -S \
            tmux \
            fish \
            fd \
-           exa \
+           lsd \
            bat \
            ncdu \
            ripgrep \

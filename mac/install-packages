@@ -10,7 +10,7 @@ tw_execute brew install \
            ncdu \
            htop \
            fd \
-           exa \
+           lsd \
            bat \
            ripgrep \
            ranger \
