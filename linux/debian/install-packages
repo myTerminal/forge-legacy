@@ -61,8 +61,6 @@ tw_execute sudo apt install \
            gparted \
            thunar \
            gvfs \
-           firefox-esr \
-           chromium \
            keepassxc \
            thunderbird \
            transmission \
@@ -101,7 +99,6 @@ tw_log "brave, authy, tunnelbear, rememberthemilk, dynalist, pcloud, key-mon, ga
 
 # TODO: Fix for Debian: picom is here compton
 # TODO: Fix for Debian: dmenu is here i3-dmenu-desktop
-# TODO: Fix for Debian: need to replace firefox-esr with firefox-developer-edition
 
 tw_log "Installing packages through flatpak..."
 tw_execute ~/.scripts/linux/mt-flatpak-install postman com.getpostman.Postman
@@ -111,7 +108,6 @@ tw_execute ~/.scripts/linux/mt-flatpak-install element im.riot.Riot
 tw_log "Performing a few package-dependent configs..."
 tw_log "Adding user to group 'libvirt' for virt-manager..."
 tw_execute sudo usermod -aG libvirt ismail
-tw_execute xdg-settings set default-web-browser firefox-esr.desktop
 tw_log "Creating soft-links to unusually named binary packages"
 tw_execute sudo ln -s "$(which fdfind)" "$(which fdfind | xargs readlink -f | xargs dirname)/fd"
 tw_execute sudo ln -s "$(which batcat)" "$(which batcat | xargs readlink -f | xargs dirname)/bat"

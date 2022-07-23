@@ -69,8 +69,6 @@ tw_execute sudo xbps-install -S \
            Thunar \
            gvfs \
            syncthing-gtk \
-           firefox \
-           chromium \
            keepassxc \
            thunderbird \
            transmission-gtk \
@@ -112,4 +110,3 @@ tw_execute ~/.scripts/linux/mt-flatpak-install steam com.valvesoftware.Steam
 tw_log "Performing a few package-dependent configs..."
 tw_log "Adding user to group 'libvirt' for virt-manager..."
 tw_execute sudo usermod -aG libvirt ismail
-tw_execute xdg-settings set default-web-browser firefox.desktop
