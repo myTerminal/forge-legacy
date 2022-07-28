@@ -45,6 +45,19 @@ mt_task_create_lisp_parser () {
                                   "There was an error creating Custom Lisp parser!"
 }
 
+# Function to setup quicklisp
+mt_task_setup_quicklisp () {
+    tw_log "Setting up quicklisp..."
+
+    tw_execute curl https://beta.quicklisp.org/quicklisp.lisp -o /tmp/quicklisp.lisp
+    tw_execute sbcl --load /tmp/quicklisp.lisp --non-interactive --eval "(quicklisp-quickstart:install)"
+    tw_execute sbcl --load ~/quicklisp/setup.lisp --non-interactive --eval "(ql:add-to-init-file)"
+
+    tw_handle_last_command_status "${?}" \
+                                  "quicklisp installed" \
+                                  "There was an error setting up quicklisp!"
+}
+
 # Function to create required directories
 mt_task_create_required_directories () {
     tw_log "Creating required directories..."
