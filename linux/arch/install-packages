@@ -42,6 +42,7 @@ tw_execute sudo pacman -S \
            ntfs-3g \
            mtools \
            dosfstools \
+           android-tools \
            rlwrap \
            neofetch \
            wget \

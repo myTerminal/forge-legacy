@@ -44,6 +44,7 @@ tw_execute sudo xbps-install -S \
            ntfs-3g \
            mtools \
            dosfstools \
+           android-tools \
            rlwrap \
            neofetch \
            wget \
