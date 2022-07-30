@@ -69,6 +69,9 @@ tw_confirm "Convert dotfiles at '~' from HTTPS to SSH?" \
 tw_confirm "Create convenience soft-links?" \
            mt_task_link_create_convenience_softlinks \
            "Creation of convenience soft-links skipped."
+tw_confirm "Create symlinks for binaries?" \
+           mt_task_regenerate_symlinks_for_binaries \
+           "Symlinks for binaries (re)generated."
 tw_confirm "Tag machine as configured?" \
            mt_task_tag_machine_as_configured \
            "Machine not tagged as configured."

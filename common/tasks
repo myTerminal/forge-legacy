@@ -69,7 +69,7 @@ mt_task_create_required_directories () {
 
     tw_handle_last_command_status "${?}" \
                                   "Directories created" \
-                                  "There was an error creating one of more directories!"
+                                  "There was an error creating one or more directories!"
 }
 
 # Function to clone GitHub projects under 'myTerminal'
@@ -138,7 +138,18 @@ mt_task_link_create_convenience_softlinks () {
 
     tw_handle_last_command_status "${?}" \
                                   "Links created" \
-                                  "There was an error creating one of more links!"
+                                  "There was an error creating one or more links!"
+}
+
+# Function to regenerate symbolic links for binaries
+mt_task_regenerate_symlinks_for_binaries () {
+    tw_log "Creating symlinks for binaries"
+
+    tw_execute ~/.setup/regenerate-binary-symlinks
+
+    tw_handle_last_command_status "${?}" \
+                                  "Links created" \
+                                  "There was an error creating one or more links!"
 }
 
 # Function to tag machine as configured
