@@ -16,6 +16,7 @@ tw_execute sudo pacman -S \
            fzf \
            vim \
            emacs \
+           mpv \
            aspell \
            aspell-en \
            git \
@@ -75,7 +76,6 @@ tw_execute sudo pacman -S \
            gimp \
            darktable \
            clementine \
-           mpg123 \
            pavucontrol \
            gstreamer \
            pulseaudio \

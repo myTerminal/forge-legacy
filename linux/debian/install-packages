@@ -14,6 +14,7 @@ tw_execute sudo apt install \
            fzf \
            vim \
            emacs \
+           mpv \
            aspell \
            aspell-en \
            git \
@@ -72,7 +73,6 @@ tw_execute sudo apt install \
            gimp \
            darktable \
            clementine \
-           mpg123 \
            pavucontrol \
            pulseaudio \
            pulseeffects \

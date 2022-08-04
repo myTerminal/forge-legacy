@@ -17,6 +17,7 @@ tw_execute brew install \
            cryfs \
            tig \
            fzf \
+           mpv \
            aspell \
            node \
            sbcl \
