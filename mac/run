@@ -16,8 +16,8 @@ tw_execute docker-machine create --driver virtualbox default
 tw_execute eval $(docker-machine env default)
 
 tw_log "Changing shell to fish..."
-tw_execute_eval "echo \"/usr/local/bin/fish\" | sudo tee -a /etc/shells"
-tw_execute chsh -s /usr/local/bin/fish
+tw_execute_eval "echo \"/opt/homebrew/bin/fish\" | sudo tee -a /etc/shells"
+tw_execute chsh -s /opt/homebrew/bin/fish
 
 tw_log "Setting up Rust..."
 tw_execute rustup-init
