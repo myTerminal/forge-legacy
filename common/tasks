@@ -36,6 +36,7 @@ mt_task_install_npm_packages () {
 
 # Function to create custom Lisp parser
 mt_task_create_lisp_parser () {
+    # TODO: Fix for macOS
     tw_log "Creating custom Lisp parser..."
 
     tw_execute sudo cp ~/.assets/cl /usr/bin/cl
