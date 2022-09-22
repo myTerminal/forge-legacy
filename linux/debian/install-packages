@@ -41,6 +41,7 @@ tw_execute sudo apt install \
            ntfs-3g \
            mtools \
            dosfstools \
+           exfat-utils \
            android-platform-system-core \
            rlwrap \
            neofetch \
