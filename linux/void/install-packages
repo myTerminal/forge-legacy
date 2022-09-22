@@ -26,7 +26,7 @@ tw_execute sudo xbps-install -S \
            rsync \
            zip \
            unzip \
-           htop \
+           btop \
            psmisc \
            udisks2 \
            NetworkManager \

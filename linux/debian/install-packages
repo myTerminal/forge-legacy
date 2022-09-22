@@ -24,7 +24,7 @@ tw_execute sudo apt install \
            rsync \
            zip \
            unzip \
-           htop \
+           btop \
            psmisc \
            udisks2 \
            network-manager \
