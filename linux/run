@@ -80,4 +80,8 @@ tw_confirm "Configure event tweaks?" \
            mt_task_linux_configure_event_tweaks \
            "Event tweaks skipped."
 
+tw_confirm "Install power-guard?" \
+           mt_task_linux_install_power_guard \
+           "Installing power-guard skipped."
+
 tw_log "Steps for Linux complete!"
