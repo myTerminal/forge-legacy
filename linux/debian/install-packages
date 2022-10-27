@@ -75,8 +75,10 @@ tw_execute sudo apt install \
            darktable \
            clementine \
            pavucontrol \
-           pulseaudio \
-           pulseeffects \
+           pipewire \
+           pipewire-pulse \
+           pipewire-alsa \
+           easyeffects \
            audacity \
            easytag \
            vlc \

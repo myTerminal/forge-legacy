@@ -85,8 +85,10 @@ tw_execute sudo xbps-install -S \
            clementine \
            pavucontrol \
            gstreamer1 \
-           pulseaudio \
-           pulseeffects-legacy \
+           pipewire \
+           alsa-pipewire \
+           libspa-bluetooth \
+           easyeffects \
            audacity \
            easytag \
            vlc \

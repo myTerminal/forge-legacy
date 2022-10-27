@@ -79,8 +79,10 @@ tw_execute sudo pacman -S \
            clementine \
            pavucontrol \
            gstreamer \
-           pulseaudio \
-           pulseaudio-bluetooth \
+           pipewire \
+           pipewire-pulse \
+           pipewire-alsa \
+           easyeffects \
            audacity \
            easytag \
            vlc \
@@ -97,7 +99,6 @@ tw_execute sudo pacman -S \
 tw_log "Installing packages from AUR..."
 tw_execute paru -S --mflags --skipinteg \
            sct \
-           pulseeffects-legacy \
            authy \
            postman-bin \
            tunnelbear \
