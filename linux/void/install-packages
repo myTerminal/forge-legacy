@@ -100,6 +100,7 @@ tw_execute sudo xbps-install -S \
            obs \
            peek \
            steam \
+           lutris \
            gamehub \
            barrier
 

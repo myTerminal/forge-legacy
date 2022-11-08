@@ -94,6 +94,7 @@ tw_execute sudo pacman -S \
            obs-studio \
            peek \
            steam \
+           lutris \
            barrier
 
 tw_log "Installing packages from AUR..."

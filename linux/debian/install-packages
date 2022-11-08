@@ -90,6 +90,7 @@ tw_execute sudo apt install \
            obs-studio \
            peek \
            steam \
+           lutris \
            barrier
 
 tw_log "Installing more packages..."
