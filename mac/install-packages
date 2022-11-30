@@ -46,7 +46,6 @@ tw_execute brew install --cask \
            tunnelbear \
            remember-the-milk \
            dynalist \
-           discord \
            element \
            kid3 \
            gimp \

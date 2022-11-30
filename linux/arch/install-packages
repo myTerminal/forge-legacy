@@ -105,7 +105,6 @@ tw_execute paru -S --mflags --skipinteg \
            tunnelbear \
            rememberthemilk \
            dynalist-desktop \
-           discord \
            element-desktop \
            syncthing-gtk \
            pcloud-drive \

@@ -108,8 +108,6 @@ tw_log "The following packages are absent on Void repos:"
 tw_log "brave, authy, postman, tunnelbear, rememberthemilk, dynalist, pcloud, balena-etcher, nomachine, edex-ui"
 
 tw_log "Installing packages through flatpak..."
-# Discord still won't work and will need to run inside a web-browser
-tw_execute ~/.scripts/linux/mt-flatpak-install discord com.discordapp.Discord
 tw_execute ~/.scripts/linux/mt-flatpak-install element im.riot.Riot
 
 tw_log "Performing a few package-dependent configs..."
