@@ -105,9 +105,10 @@ tw_execute sudo xbps-install -S \
            barrier
 
 tw_log "The following packages are absent on Void repos:"
-tw_log "brave, authy, postman, tunnelbear, rememberthemilk, dynalist, pcloud, balena-etcher, nomachine, edex-ui"
+tw_log "brave, authy, tunnelbear, rememberthemilk, dynalist, pcloud, balena-etcher, nomachine, edex-ui"
 
 tw_log "Installing packages through flatpak..."
+tw_execute ~/.scripts/linux/mt-flatpak-install postman com.getpostman.Postman
 tw_execute ~/.scripts/linux/mt-flatpak-install element im.riot.Riot
 
 tw_log "Performing a few package-dependent configs..."

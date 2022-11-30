@@ -101,11 +101,9 @@ tw_log "Installing packages from AUR..."
 tw_execute paru -S --mflags --skipinteg \
            sct \
            authy \
-           postman-bin \
            tunnelbear \
            rememberthemilk \
            dynalist-desktop \
-           element-desktop \
            syncthing-gtk \
            pcloud-drive \
            gamehub \
@@ -127,6 +125,10 @@ tw_execute paru -S --mflags --skipinteg \
 
 # Inbuilt packages
 # (None yet)
+
+tw_log "Installing packages through flatpak..."
+tw_execute ~/.scripts/linux/mt-flatpak-install postman com.getpostman.Postman
+tw_execute ~/.scripts/linux/mt-flatpak-install element im.riot.Riot
 
 tw_log "Performing a few package-dependent configs..."
 tw_log "Adding user to group 'libvirt' for virt-manager..."
