@@ -24,7 +24,7 @@ xinput set-prop 'Synaptics TM3381-002' 'libinput Natural Scrolling Enabled' 1
 
 # Install tlp and more for power management
 sudo xbps-install -Sy tlp acpi_call-dkms powertop
-~/.scripts/linux/mt-battery-set-charge-thresholds
+~/.bin/linux/mt-battery-set-charge-thresholds
 sudo ln -s /etc/sv/tlp /var/service
 
 # TODO: Utilize fingerprint sensor
