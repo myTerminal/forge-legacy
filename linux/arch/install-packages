@@ -128,7 +128,7 @@ tw_execute paru -S --mflags --skipinteg \
 
 tw_log "Installing packages through flatpak..."
 tw_execute ~/.bin/linux/mt-flatpak-install postman com.getpostman.Postman
-tw_execute ~/.bin/linux/mt-flatpak-install element im.riot.Riot
+tw_execute ~/.bin/linux/mt-flatpak-install schildi chat.schildi.desktop
 
 tw_log "Performing a few package-dependent configs..."
 tw_log "Adding user to group 'libvirt' for virt-manager..."
