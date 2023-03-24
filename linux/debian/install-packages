@@ -55,6 +55,7 @@ tw_execute sudo apt install \
            onboard \
            compton \
            i3 \
+           xss-lock \
            xfce4 \
            feh \
            rofi \

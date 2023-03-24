@@ -61,6 +61,7 @@ tw_execute sudo xbps-install -S \
            i3 \
            i3status \
            i3lock \
+           xss-lock \
            xfce4 \
            feh \
            dmenu \

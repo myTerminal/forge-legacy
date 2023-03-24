@@ -56,6 +56,7 @@ tw_execute sudo pacman -S \
            onboard \
            picom \
            i3 \
+           xss-lock \
            xfce4 \
            feh \
            dmenu \
