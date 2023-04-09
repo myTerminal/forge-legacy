@@ -64,7 +64,7 @@ tw_confirm "Clone GitHub source projects?" \
 tw_confirm "Create fallback link to ~/.config/emacs?" \
            mt_task_create_fallback_link_to_emacs_xdg \
            "Creation of fallback link skipped."
-tw_confirm "Link myTerminal/.emacs.d to dotfiles?" \
+tw_confirm "Link super-emacs to dotfiles?" \
            mt_task_link_default_emacs_configs \
            "Linking default Emacs configs skipped."
 tw_confirm "Convert dotfiles at '~' from HTTPS to SSH?" \

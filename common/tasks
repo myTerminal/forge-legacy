@@ -99,12 +99,12 @@ mt_task_create_fallback_link_to_emacs_xdg () {
 }
 
 
-# Function to link myTerminal/.emacs.d to dotfiles
+# Function to link myTerminal/super-emacs to dotfiles
 mt_task_link_default_emacs_configs () {
-    tw_log "Linking myTerminal/.emacs.d to dotfiles"
+    tw_log "Linking myTerminal/super-emacs to dotfiles"
 
     tw_execute mkdir ~/.config/emacs/configs
-    tw_execute ln -s "${MT_PATH_WORKSPACE_GITHUB}/.emacs.d/emacs" ~/.config/emacs/configs/_default
+    tw_execute ln -s "${MT_PATH_WORKSPACE_GITHUB}/super-emacs/.emacs.d" ~/.config/emacs/configs/super-emacs
 
     tw_handle_last_command_status "${?}" \
                                   "Default Emacs configs linked" \
